@@ -1,5 +1,7 @@
-import React from 'react'
-import CareerMapping from '../Components/CareerMapping'
+import React from 'react';
+import { Link } from 'react-router-dom'
+import CareerMapping from '../Components/CareerMapping';
+
 
 const Home = () => {
   return (
@@ -10,7 +12,7 @@ const Home = () => {
             <p className="text-lg mb-6 text-center max-w-md">
                 Discover amazing features and tools that will enhance your experience. Let's start your journey towards achieving your goals!
             </p>
-           <a href="/career" className='mt-4 bg-indigo-600 text-white px-4 py-2 rounded'>Career Mapping</a>
+           <Link to="/career" className='mt-4 bg-indigo-600 text-white px-4 py-2 rounded'>Career Mapping</Link>
         </div>
     </>
   )
